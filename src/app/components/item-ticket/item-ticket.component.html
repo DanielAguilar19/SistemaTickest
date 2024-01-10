@@ -1,0 +1,16 @@
+<div *ngIf="unTicket" class="ticket">
+    <div class="top">
+        <p *ngIf="unTicket.createdAt"> {{unTicket.createdAt | DateFormat}} </p>
+        <button (click)="(removeTicket())">
+            <img src="assets\cross_mark.svg" alt="cross_mark" >        
+        </button>
+    </div>
+    
+    <div class="bottom">
+
+    <span>
+        {{unTicket.descripcion }}
+    </span>
+    <!-- agregar un dropdown-->
+    </div>
+    </div>

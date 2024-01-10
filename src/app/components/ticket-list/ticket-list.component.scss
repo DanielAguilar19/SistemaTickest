@@ -1,0 +1,56 @@
+.ticket{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+    border: 5px solid #292929;
+    padding: 1rem;
+    color: #dadada;
+    line-height: 24px;
+  
+  
+  .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    p{
+      font-size: 12px;
+      font-weight: 600;
+    }
+  
+    button{
+      background: transparent;
+      cursor: pointer;
+      border: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: .3s;
+  
+      img{
+        width: 18px;
+        height: 18px;
+      
+      }
+      &:hover{
+        transform: scale(1.2);
+      }
+  
+    }
+  
+    .button{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  
+      span{
+        font-size: 14px;
+      }
+    }
+  
+  }
+  
+  }
+
+ 
